@@ -5,7 +5,7 @@ python train.py 启动训练
 
 ## 复现流程
 
-![image](F:\repvit-cifar10\repvit-cifar10\repvit.png)
+![image](.\repvit.png)
 
 基于这个整体架构进行设计
 
@@ -61,7 +61,7 @@ class DW(nn.Module):
 
 ### 4 简单的分类器
 
-![image](F:\repvit-cifar10\repvit-cifar10\classifer.png)
+![image](.\classifer.png)
 
 如图b 相比于mobilenetv3，简化分类器设计，降低延迟
 
@@ -243,7 +243,7 @@ def repvit_m0_9(pretrained=False, num_classes=100):
 
 ## 复现结果
 
-![image](F:\repvit-cifar10\repvit-cifar10\result.png)
+![image](.\result.png)
 
 mobilenetv3：71.92%
 
